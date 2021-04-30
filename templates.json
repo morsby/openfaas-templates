@@ -1,0 +1,11 @@
+[
+  {
+    "template": "golang-mod",
+    "platform": "x86_64",
+    "language": "Go",
+    "source": "Morsby",
+    "description": "Golang template with modules support, using Go 1.16.",
+    "repo": "https://github.com/morsby/openfaas-templates",
+    "official": "false"
+  }
+]
