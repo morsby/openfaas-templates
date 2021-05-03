@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/morsby/openfaas-templates.svg?branch=main)](https://travis-ci.org/morsby/openfaas-templates)
+[![Build Status](https://travis-ci.com/morsby/openfaas-templates.svg?branch=main)](https://travis-ci.com/morsby/openfaas-templates)
 
 # OpenFaaS Templates
 
