@@ -24,8 +24,10 @@ RUN cat function/GO_REPLACE.txt >> ./go.mod || exit 0
 # Modules
 RUN go mod tidy
 
-# Run a gofmt and exclude all vendored code.
-RUN test -z "$(gofmt -l $(find . -type f -name '*.go' -not -path "./vendor/*" -not -path "./function/vendor/*"))" || { echo "Run \"gofmt -s -w\" on your Golang code"; exit 1; }
+# Run go test, gofmt, go vet
+RUN chmod +x test.sh \
+    && ./test.sh \
+    && go build --ldflags "-s -w" -a -installsuffix cgo -o handler .
 
 WORKDIR /go/src/handler/function
 
