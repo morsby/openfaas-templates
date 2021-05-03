@@ -67,6 +67,9 @@ function verify_all() {
 # remove the generated files and folders
 function cleanup() {
     rm -rf *-$suffix *-$suffix.yml
+    if [ ! -f ".gitignore" ]; then
+        return 0
+    fi
     sed -i '' -e 's/^template$//g' .gitignore
     sed -i '' '1,/# DO NOT ADD ANYTHING BELOW THIS LINE, IT WILL BE REMOVED/!d' .gitignore
 }
