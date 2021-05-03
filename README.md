@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/morsby/openfaas-templates.svg?branch=main)](https://travis-ci.org/morsby/openfaas-templates)
+
 # OpenFaaS Templates
 
 A collection of templates for use in OpenFaaS:
