@@ -1,10 +1,19 @@
 [
   {
-    "template": "golang-mod",
+    "template": "golang-http",
     "platform": "x86_64",
     "language": "Go",
     "source": "Morsby",
     "description": "Golang template with modules support, using Go 1.16.",
+    "repo": "https://github.com/morsby/openfaas-templates",
+    "official": "false"
+  },
+  {
+    "template": "golang-middleware",
+    "platform": "x86_64",
+    "language": "Go",
+    "source": "Morsby",
+    "description": "Golang template with modules support, using Go 1.16, allowing direct access to the *http.Request and http.ResponseWriter.",
     "repo": "https://github.com/morsby/openfaas-templates",
     "official": "false"
   }

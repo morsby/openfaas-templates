@@ -1,7 +1,11 @@
 # OpenFaaS Templates
 
-Originally developed by Martin Heinz at
-[this repo](https://github.com/MartinHeinz/openfaas-templates).
+A collection of templates for use in OpenFaaS:
+
+- `golang-http`: Originally developed by Martin Heinz at
+  [this repo](https://github.com/MartinHeinz/openfaas-templates). Modified to use Go 1.16.
+- `golang-middleware`: Originally developed
+  [here](https://github.com/openfaas/golang-http-template). Modified to use Go 1.16.
 
 This repository is used both for development of _OpenFaaS_ templates and well as a
 _OpenFaaS Template Store_.
