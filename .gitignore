@@ -2,10 +2,29 @@ build
 faas-netes
 go.sum
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,golang
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,golang
+# Created by https://www.toptal.com/developers/gitignore/api/go,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,macos
 
-#!! ERROR: golang is undefined. Use list command to see defined gitignore types !!#
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
 
 ### macOS ###
 # General
@@ -36,4 +55,5 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,golang
+# End of https://www.toptal.com/developers/gitignore/api/go,macos
+# DO NOT ADD ANYTHING BELOW THIS LINE, IT WILL BE REMOVED
